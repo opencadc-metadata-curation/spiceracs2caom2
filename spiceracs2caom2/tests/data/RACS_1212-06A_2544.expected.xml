@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<caom2:Observation xmlns:caom2="http://www.opencadc.org/caom2/xml/v2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="caom2:SimpleObservation" caom2:id="00000000-0000-0000-80a9-e59f7bb85513">
+  <caom2:collection>SPICE-RACS</caom2:collection>
+  <caom2:observationID>RACS_1212-06A_2544</caom2:observationID>
+  <caom2:algorithm>
+    <caom2:name>exposure</caom2:name>
+  </caom2:algorithm>
+  <caom2:intent>science</caom2:intent>
+  <caom2:target>
+    <caom2:name>RACS_1212-06A_2544</caom2:name>
+  </caom2:target>
+  <caom2:planes>
+    <caom2:plane caom2:id="f98a6c40-e113-4e0b-b84b-bfeaf21da278">
+      <caom2:productID>polspec</caom2:productID>
+      <caom2:dataProductType>cube</caom2:dataProductType>
+      <caom2:calibrationLevel>2</caom2:calibrationLevel>
+      <caom2:artifacts>
+        <caom2:artifact caom2:id="ac93d8a7-d9ff-4bda-a6a7-18d1ca94ce5a">
+          <caom2:uri>casda:SPICE-RACS/RACS_1212-06A_2544_polspec.fits</caom2:uri>
+          <caom2:productType>science</caom2:productType>
+          <caom2:releaseType>data</caom2:releaseType>
+          <caom2:contentType>application/fits</caom2:contentType>
+          <caom2:contentLength>9728</caom2:contentLength>
+          <caom2:contentChecksum>md5:597518836626343e4f2241bdceeadc88</caom2:contentChecksum>
+          <caom2:parts>
+            <caom2:part caom2:id="98a8ec07-b23d-4507-8cda-82d50ad939a8">
+              <caom2:name>0</caom2:name>
+              <caom2:chunks>
+                <caom2:chunk caom2:id="d7ca4b3e-aa89-4615-8846-cfc6657105b6">
+                  <caom2:naxis>2</caom2:naxis>
+                  <caom2:positionAxis1>1</caom2:positionAxis1>
+                  <caom2:positionAxis2>2</caom2:positionAxis2>
+                  <caom2:position>
+                    <caom2:axis>
+                      <caom2:axis1>
+                        <caom2:ctype>RA---SIN</caom2:ctype>
+                        <caom2:cunit>deg</caom2:cunit>
+                      </caom2:axis1>
+                      <caom2:axis2>
+                        <caom2:ctype>DEC--SIN</caom2:ctype>
+                        <caom2:cunit>deg</caom2:cunit>
+                      </caom2:axis2>
+                    </caom2:axis>
+                    <caom2:coordsys>ICRS</caom2:coordsys>
+                  </caom2:position>
+                </caom2:chunk>
+              </caom2:chunks>
+            </caom2:part>
+          </caom2:parts>
+        </caom2:artifact>
+      </caom2:artifacts>
+    </caom2:plane>
+  </caom2:planes>
+</caom2:Observation>
